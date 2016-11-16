@@ -1,0 +1,39 @@
+
+20091203
+
+Judges did not understand what effect evanescent channels have on propagation.
+-effect on refractive index?
+-how one would expect transport to change qualitatively when evanescent channels are present
+
+The picture of electric field intensity did not display well on the projector.
+
+SVN 1075 got second place ($200)
+
+Dr Silvius: although time constraints make it difficult,
+1) tell the audience what you are going to say
+2) tell the audience the message
+3) tell the audience what you said
+
+Ben's take-away:
+Although a "logical flow" of question-answer is nice, it does not convey the message if the audience is not used to the topic. These two approaches should be combined: the audience first knows what is going to be the answer, and then the body of the talk is spent following the logical steps in question-answer format.
+
+Dr Story: picture of distribution of conductance P(g) was not clear. Instead of x-axis "g", write out "conductance." And isn't that supposed to be transmission since we're talking about photons? The fact that it was a histogram was not clear, since Story didn't realize that a distribution (P(g)) was being described. Explaining "distribution of conductance" in first slide was too long ago to remember.
+
+Ben's take-away: 
+0) label axis with words if possible
+1) explain how the information being plotted was found
+2) explain the significance of the plot
+
+Dr Story on my CV:
+-I list a paper as "submitted". To where? Specify the journal
+-specify conference dates (not just the year)
+-Northwestern and Yale presentations: specify that these were to collaborators, not colloquiums.
+
+Dr Parris: The system has an effective Hamiltonian, modes = eigenvalues. Then scatterers are added, how does that change the modes? 
+
+Dr Vojta: what is the effect of evanescent channels in passive media? Dr Vojta did seem to realize that gain would be different.
+
+
+Next time:
+-use a video to record (for personal review)
+-repeat back the question explicitly. This confirms to the asker that you heard the question. It's also to tell the audience what you're going to answer.

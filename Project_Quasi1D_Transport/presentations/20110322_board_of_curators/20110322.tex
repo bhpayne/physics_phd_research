@@ -1,0 +1,88 @@
+% for normal presentation
+\documentclass[xcolor=dvipsnames]{beamer}
+% to collapse the slides with ``pause'' and other ``animation gimics,'' compile with
+%\documentclass[handout,xcolor=pdftex,dvipsnames,table]{beamer}
+\mode<presentation>
+% extremely helpful site:
+% http://www.math.umbc.edu/~rouben/beamer/
+\definecolor{mstgreen}{RGB}{8,87,6}
+\definecolor{mstgold}{RGB}{223,196,99}
+%\usecolortheme[named=mstgreen]{structure} % only affects bullets
+\usecolortheme[named=OliveGreen]{structure}
+\useoutertheme{infolines}
+\setbeamertemplate{items}[circle] % supposed to switch from 3D ball to 2D circle. Doesn't seem to work
+\setbeamertemplate{navigation symbols}{} % eliminates the navigation icons which are useless
+\usepackage{amsmath,amssymb}
+% see http://www.pletscher.org/writings/latex/beamerthemes.php
+% for a useful preview of themes
+% see also http://sites.google.com/site/wdoerner/latex
+%\usetheme{Rochester} % fat horizontal top single banner
+%\usetheme{Antibes} % tree for current section, plus fat horizontal top banner
+%\usetheme{Bergen} % fat left-vertical bar
+%\usetheme{Berkely} % top-horizontal and left-vertical banner % did not work on linux quad
+%\usetheme{Berlin} % tree for current section, plus fat horizontal top banner AND bottom ID banner
+%\usetheme{Boadilla} % skinny horizontal top banner for ID; small side and top margins
+%\usetheme{boxes} % no banners, small margins
+%\usetheme{CambridgeUS} % skinny top and bottom margins % GOOD
+\usetheme{Madrid} % good, nice color
+%\usetheme{Boadilla} % no topline
+%\usetheme{Goettingen} % right-side horizontal info bar 
+%\usetheme{Progressbar} % not available
+
+
+%\usecolortheme{crane}
+\usefonttheme[onlymath]{serif}
+\setbeamercolor{math text displayed}{fg=blue!60!black}
+%\setbeamercolor{itemize item}{fg=mstgreen}
+%\setbeamercolor{palette primary}{fg=mstgreen,bg=mstgold}
+%\setbeamercolor{palette secondary}{fg=mstgreen,bg=mstgold}
+%\setbeamercolor{palette tertiary}{fg=mstgreen,bg=mstgold}
+
+\setbeamercolor{palette sidebar primary}{fg=mstgreen,bg=mstgold}
+%\setbeamercolor{section in toc}{fg=mstgreen}  % text color (foreground)
+%\setbeamercolor{section in toc}{bg=mstgold} % background, no effect
+
+\newcommand{\slf}[1]{\not{\!#1}}
+\def\half{{\textstyle{\frac12}}}
+\def\ii{\textrm{i}}
+
+%\setbeamercolor{frametitle}{fg=mstgreen}
+
+\title[Wave-based Transport]{Wave-based Description of Transport}
+\author[Ben Payne]{\textbf{Ben Payne}\\ Alexey Yamilov}
+\institute[MS\&T]{Missouri University of Science and Technology}
+\date[Board of Curators \ 20110222]{March 22, 2011\\ \ \\Board of Curators}
+%\subtitle{}
+\logo{\includegraphics[height=0.8cm]{Logo_356.jpg}}
+
+\begin{document}
+
+\begin{frame} 
+\titlepage
+\end{frame}
+
+\begin{frame}
+ \frametitle{Outline}
+ \tableofcontents
+\end{frame}
+
+\section{Scatterering of light}
+
+\begin{frame}
+ \frametitle{Particle-based scattering}
+\begin{center}
+\includegraphics[height=5cm]{pictures/eastern_bluebird_snow}
+%\pause
+\includegraphics[height=5cm]{pictures/Dark_Side_of_the_Moon}
+\end{center}
+\end{frame}
+
+\subsection{Self-consistent theory of Anderson localization}
+\begin{frame}
+ \frametitle{Diffusive description of non-diffusive systems}
+\begin{itemize}
+\item Self-consistent theory of localization in infinite media predicts that change in transport regime results in deviation from diffusion coefficient $D_0 \rightarrow D$
+\end{itemize}
+ \end{frame}
+
+\end{document}
